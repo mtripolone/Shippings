@@ -10,7 +10,7 @@
 1. Clonar o projeto e acessar a pasta do mesmo
 
 ```
-git clone git@github.com:mtripolone/Shippings.git && cd Shippings
+git clone https://github.com/mtripolone/Shippings.git && cd Shippings
 ```
 
 2. Dar permissão na storage:
