@@ -7,9 +7,9 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        - USER=mtripolone
-        - UID=1000
-    user: mtripolone
+        - USER=${USER}
+        - UID=${UID}
+    user: ${USER}
     container_name: app-shipping
     restart: unless-stopped
     tty: true
